@@ -1,0 +1,20 @@
+module.exports = {
+  PassaporteUri: require('./PassaporteUri'),
+  InvalidLogin: require('./InvalidLogin'),
+  TokenInvalido: require('./TokenInvalido'),
+  NoToken: require('./NoToken'),
+  Unauthorized: require('./Unauthorized'),
+  QuestaoJaAvaliada: require('./QuestaoJaAvaliada'),
+  QuestaoValidacaoNaoPermitida: require('./QuestaoValidacaoNaoPermitida'),
+  SimuladoJaFinalizado: require('./SimuladoJaFinalizado'),
+  AcessoSimuladoFinalizado: require('./AcessoSimuladoFinalizado'),
+  ResponderForaDoPrazo: require('./ResponderForaDoPrazo'),
+  SimuladoNaoEncontradoNoAluno: require('./SimuladoNaoEncontradoNoAluno'),
+  DesempenhoSimuladoNaoFinalizado: require('./DesempenhoSimuladoNaoFinalizado'),
+  SimuladoJaInicializado: require('./SimuladoJaInicializado'),
+  RouteBodyValidation: require('./RouteBodyValidation'),
+  ExclusaoNaoPermitida: require('./ExclusaoNaoPermitida'),
+  QuestaoNaoEncontrada: require('./QuestaoNaoEncontrada'),
+  NaoExisteMaisQuestao: require('./NaoExisteMaisQuestao'),
+  NaoExisteExercicio: require('./NaoExisteExercicio')
+}
